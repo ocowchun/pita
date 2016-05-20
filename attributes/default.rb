@@ -31,3 +31,11 @@ default['pita']['moro']={
   "datadog"=>false
 }
 
+
+# topbeat
+default['topbeat']['version']='1.2.3'
+# default['topbeat']['config']['output']={
+#   "elasticsearch"=>{
+#     "hosts"=>["192.168.33.10:9200"]
+#   }
+# }
